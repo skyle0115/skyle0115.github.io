@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>網頁設計入門 | HTML 入門</title>
+</head>
+<body>
+    <h1>HTML 入門</h1>
+    <a href="index.html">返回首頁</a>
+    <div>
+        <h2>一、我的第一個網頁</h2>
+        <ol>
+            <li>在 VS Code 新增檔案，命名為 index.html</li>
+            <li>在 index.html 中輸入任意文字</li>
+            <li>雙擊檔案，以瀏覽器開啟 index.html</li>
+        </ol>
+        <h3>小練習</h3>
+        <ul>
+            <li>HTML 是什麼的縮寫？</li>
+            <li>VS Code 是什麼？</li>
+            <li>為何命名檔案為 index.html？</li>
+        </ul>
+    </div>
+    <div>
+        <h2>二、剖析網頁的介面</h2>
+        <ol>
+            <li>選擇一個你經常瀏覽的網頁（想像你要寫出一模一樣的網頁）</li>
+            <li>從上至下、左至右分解網頁的結構</li>
+            <li>以樹狀圖或巢狀清單呈現</li>
+        </ol>
+        <img src="http://i2.sinaimg.cn/IT/cr/2013/0703/3077358340.png" alt="" height="200">
+        <img src="https://i.imgur.com/ciood87.png" alt="" height="200">
+        <h3>小練習</h3>
+        <ul>
+            <li>輪流展示成果給大家看吧！</li>
+            <li>思考：我們要怎麼用程式碼描述這個結構呢？</li>
+        </ul>
+        
+    </div>
+    <div>
+        <h2>三、HTML 語法</h2>
+        <ol>
+            <li>網頁是由元素所組成</li>
+            <li>元素是由開始標籤、內容、結束標籤所組成。e.g. &lt;h1&gt;我是內容&lt;/h1&gt;</li>
+            <li>內容可以是元素，稱為巢狀元素。e.g. &lt;h1&gt;&lt;b&gt;我&lt;/b&gt;是內容&lt;/h1&gt;</li>
+            <li>沒有內容的元素則可以省略結束標籤。e.g. &lt;hr&gt;</li>
+            <li>在開始標籤加上 attribute="value"，可以為元素附上值為 value 的 attribute。e.g. &lt;img src="cat.jpg"&gt;</li>
+        </ol>
+    </div>
+    <div>
+        <h2>四、HTML 結構</h2>
+        <code>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-TW"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網頁標題&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+        </code>
+        <h3>小練習</h3>
+        <p>從頭到尾打一次看看吧</p>
+    </div>
+    <div>
+        <h2>五、常見標籤</h2>
+        <ol>
+            <li>註解 comment</li>
+            <li>標題 <u>h</u>eading</li>
+            <li>段落 <u>p</u>aragraph</li>
+            <li>清單</li>
+            <ul>
+                <li>無序清單 <u>u</u>nordered <u>l</u>ist</li>
+                <li>有序清單 <u>o</u>rdered <u>l</u>ist</li>
+                <li>清單項目 <u>l</u>ist <u>i</u>tem</li>
+            </ul>
+            <li>圖片 <u>im</u>a<u>g</u>e</li>
+            <li>分割 <u>div</u>ision</li>
+            <li>文字樣式</li>
+            <ul>
+                <li>粗體 <u>b</u>old</li>
+                <li>斜體 <u>i</u>talic</li>
+                <li>底線 <u>u</u>nderlined</li>
+            </ul>
+            <li>強調</li>
+            <ul>
+                <li>強調 <u>em</u>phasis</li>
+                <li>強壯 <u>strong</u></li>
+            </ul>
+            <li>換行 <u>br</u>eak</li>
+            <li>水平線 <u>h</u>o<u>r</u>izontal line</li>
+            <li>延展 <u>span</u></li>
+        </ol>
+        <h3>小練習</h3>
+        <ul>
+            <li>為什麼需要 comment？</li>
+            <li>div 和 span 有什麼差別？</li>
+            <li>哪些標籤的 display 是 inline？哪些是 block？</li>
+        </ul>
+    </div>
+    <div>
+        <h2>實作：我的個人網頁</h2>
+        <p>用 HTML 寫一個個人網頁吧！</p>
+    </div>
+</body>
+</html>
